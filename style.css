@@ -222,3 +222,34 @@ a {
     margin-top: 30px;
     font-size: 10pt;
 }
+
+#art2 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#art2 p {
+    color: #556652;
+    font-family: 'Prata', serif;
+}
+
+.title4 {
+    background-color: #556652;
+    color: #fff;
+    font-family: 'Abril Fatface', serif;
+    width: 1000px;
+    font-size: 18pt;
+    padding: 0 20px 5px 20px;
+    margin-bottom: 70px;
+    align-self: start;
+}
+
+.realisation2 {
+    align-self: start;
+    color: #556652;
+    font-family: 'Prata', serif;
+    margin-top: 30px;
+    font-size: 10pt;
+}
