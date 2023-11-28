@@ -182,8 +182,15 @@ hr {
     width: 800px;
     font-size: 18pt;
     padding: 0 20px 5px 20px;
-    margin-bottom: 70px;
     align-self: start;
+}
+
+.contain-titleart {
+    align-self: start;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 
 .article1-container {
@@ -191,7 +198,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
+    margin: 70px 0;
 }
 
 .article1 {
@@ -242,7 +249,6 @@ a {
     width: 1000px;
     font-size: 18pt;
     padding: 0 20px 5px 20px;
-    margin-bottom: 70px;
     align-self: start;
 }
 
@@ -253,3 +259,30 @@ a {
     margin-top: 30px;
     font-size: 10pt;
 }
+
+.arrow1 {
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+    transition: all .9s ease;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        transform: rotateZ(-360deg);
+    }
+}
+
+.arrow2 {
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+    transition: all .9s ease;
+    color: #556652;
+    cursor: pointer;
+
+    &:hover {
+        transform: rotateZ(-360deg);
+    }
+}
+  
