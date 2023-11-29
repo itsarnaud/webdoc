@@ -77,29 +77,38 @@ header {
     align-items: center;
     gap: 15px;
     flex-shrink: 0;
-    
+    transition: box-shadow 0.2s ease, transform 0.2s ease; 
+  
     &:hover {
-        cursor: pointer;
+      cursor: pointer;
+      -webkit-box-shadow: 7px 7px 28px 11px rgba(108, 130, 105, 0.76);
+      box-shadow: 7px 7px 28px 11px rgba(108, 130, 105, 0.76);
+      transform: scale(1.01); 
     }
-}
+  }
+  
 
 .card-vertf {
-    border-radius: 36px;
-    background: #333818;
-    box-shadow: 36px 50px 75px 0px rgba(69, 96, 64, 0.22);
-    display: flex;
-    width: 372px;
-    height: 392px;
-    padding: 23px 6px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    flex-shrink: 0;
+  border-radius: 36px;
+  background: #333818;
+  box-shadow: 36px 50px 75px 0px rgba(69, 96, 64, 0.22);
+  display: flex;
+  width: 372px;
+  height: 392px;
+  padding: 23px 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+  transition: box-shadow 0.2s ease, transform 0.2s ease; 
 
-    &:hover {
-        cursor: pointer;
-    }
+  &:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 7px 7px 28px 11px rgba(108, 130, 105, 0.76);
+      box-shadow: 7px 7px 28px 11px rgba(108, 130, 105, 0.76);
+      transform: scale(1.01); 
+  }
 }
 
 .img-card-div {
