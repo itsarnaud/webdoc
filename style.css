@@ -252,6 +252,10 @@ a {
     align-self: start;
 }
 
+.lil-title {
+    width: 700px;
+}
+
 .realisation2 {
     align-self: start;
     color: #556652;
@@ -284,5 +288,23 @@ a {
     &:hover {
         transform: rotateZ(-360deg);
     }
+}
+
+.flex-art {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.flex-art img {
+    min-width: 500px;
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.img-grosse img {
+    width: max-content;
+    height: max-content;
 }
   
