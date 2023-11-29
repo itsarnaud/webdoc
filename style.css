@@ -162,7 +162,7 @@ hr {
     margin-bottom: 10px;
 }
 
-#art1 {
+.art1 {
     background-color: #556652;
     padding-top: 20px;
     display: flex;
@@ -170,7 +170,7 @@ hr {
     flex-direction: column;
 }
 
-#art1 p {
+.art1 p {
     color: #fff;
     font-family: 'Prata', serif;
 }
@@ -230,14 +230,14 @@ a {
     font-size: 10pt;
 }
 
-#art2 {
+.art2 {
     padding-top: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-#art2 p {
+.art2 p {
     color: #556652;
     font-family: 'Prata', serif;
 }
