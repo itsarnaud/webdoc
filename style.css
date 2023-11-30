@@ -135,6 +135,10 @@ header {
     margin-top: 30px;
 }
 
+.right {
+    margin-bottom: 120px;
+}
+
 .contain-chap {
     display: flex;
     justify-content: space-around;
@@ -265,7 +269,7 @@ a {
     background-color: #556652;
     color: #fff;
     font-family: 'Abril Fatface', serif;
-    width: 1000px;
+    width: 1100px;
     font-size: 18pt;
     padding: 0 20px 5px 20px;
     align-self: start;
