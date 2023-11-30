@@ -246,6 +246,11 @@ a {
     text-decoration: none;
 }
 
+.flex-inter a {
+    width: 50px;
+    height: 50px;
+}
+
 .realisation {
     align-self: start;
     color: #FFF;
@@ -344,4 +349,14 @@ footer {
 footer span {
     font-family: 'Prata', serif;
     color: #EEE8EA;
+}
+
+.flex-inter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prenom:hover {
+    text-decoration: underline;
 }
