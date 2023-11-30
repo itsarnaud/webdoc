@@ -147,10 +147,11 @@ header {
 }
 
 .chapeau-art p {
-    max-width: 500px;
+    max-width: 600px;
     font-family: 'Prata', serif;
     text-align: justify;
     color: #556652;
+    font-size: 14pt;
 }
 
 .chapeau-art h2 {
