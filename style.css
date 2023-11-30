@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #EEE8EA;
+}
+
 header {
     height: 100vh;
 }
@@ -56,7 +60,7 @@ header {
 
 .titre-card-div h2{
     font-family: "Abril Fatface", serif;
-    color: #fff;
+    color: #EEE8EA;
     text-align: center;
     font-size: 35px;
     font-style: normal;
@@ -142,6 +146,7 @@ header {
     max-width: 500px;
     font-family: 'Prata', serif;
     text-align: justify;
+    color: #556652;
 }
 
 .chapeau-art h2 {
@@ -149,6 +154,8 @@ header {
     font-size: 30pt;
     margin-bottom: 15px;
     line-height: 110%;
+    color: #556652;
+    letter-spacing: 1px;
 }
 
 hr {
@@ -169,6 +176,8 @@ hr {
     font-family: 'Abril Fatface', serif;
     font-size: 30pt;
     margin-bottom: 10px;
+    color: #556652;
+    letter-spacing: 1px;
 }
 
 .art1 {
@@ -192,6 +201,7 @@ hr {
     font-size: 18pt;
     padding: 0 20px 5px 20px;
     align-self: start;
+    letter-spacing: 1px;
 }
 
 .contain-titleart {
@@ -259,6 +269,7 @@ a {
     font-size: 18pt;
     padding: 0 20px 5px 20px;
     align-self: start;
+    letter-spacing: 1px;
 }
 
 .lil-title {
@@ -303,7 +314,7 @@ a {
     margin-top: 70px;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
 }
 
 .flex-art img {
