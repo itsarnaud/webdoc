@@ -327,4 +327,16 @@ a {
     width: max-content;
     height: max-content;
 }
+
+footer {
+    background-color: #556652;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
+footer span {
+    font-family: 'Prata', serif;
+    color: #EEE8EA;
+}
