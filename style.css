@@ -360,3 +360,8 @@ footer span {
 .prenom:hover {
     text-decoration: underline;
 }
+
+.flex-img {
+    display: flex;
+    flex-direction: row;
+}
